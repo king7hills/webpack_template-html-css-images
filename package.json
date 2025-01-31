@@ -10,6 +10,7 @@
   },
 
   "scripts": {
+    "init": "npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin css-loader html-loader style-loader",
     "build": "webpack",
     "dev": "webpack serve",
     "deploy": "git subtree push --prefix dist origin gh-pages"
